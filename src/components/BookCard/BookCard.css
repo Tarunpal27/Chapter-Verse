@@ -1,0 +1,27 @@
+.BookCard{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+    margin: 50px 40px;
+    /* border-radius: 5px; */
+}
+
+.book-img{
+    border-radius: 10px;
+    /* margin: 0px; */
+    height: 350px;
+    box-shadow: rgba(255, 255, 255, 0.64) 5px 8px 10px 3px;
+}
+
+.book-img:hover{
+    transform: scale(0.98);
+}
+
+.book-title{
+    margin: 30px 0px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+}

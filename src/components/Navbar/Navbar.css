@@ -1,0 +1,62 @@
+.Navbar{
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px -2px rgb(202, 202, 202);
+    /* margin-bottom: 5px; */
+    z-index: 10;
+}
+
+.libName{
+    display: flex;
+    /* justify-content: center; */
+    /* padding-top: 8px;
+    padding-left: 30px; */
+    /* padding: auto; */
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.login-signup-btns{
+    display: flex;
+}
+
+.login-btn{
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(224, 25, 25);
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+.login-btn:hover{
+    transform: scale(0.95);
+    /* border: 0.5px solid black; */
+}
+
+.signup-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 50px;
+}
+
+.signup-btn:hover{
+    transform: scale(0.95);
+}
+
+.user-btn{
+    border: none;
+    background-color: white;
+}
+
+.user-btn:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,9 @@
+.Error{
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 10% 20%;
+}
+
+.Error-text{
+    margin: 0px 50px;
+}
